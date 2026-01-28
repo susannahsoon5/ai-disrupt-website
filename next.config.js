@@ -1,10 +1,10 @@
-module.exports = {
-  reactStrictMode: true,
-  swcMinify: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  basePath: '/ai-disrupt-website',
   images: {
-    domains: ['example.com'], // Add your image domains here
+    unoptimized: true,
   },
-  env: {
-    API_URL: process.env.API_URL, // Example of using environment variables
-  },
-};
+}
+
+module.exports = nextConfig
