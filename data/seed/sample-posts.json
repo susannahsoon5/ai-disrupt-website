@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of AI: Trends and Predictions",
+    "slug": "future-of-ai-trends",
+    "content": "In this post, we explore the latest trends in artificial intelligence and what the future holds for this rapidly evolving field.",
+    "author": "Jane Doe",
+    "date": "2023-10-01",
+    "tags": ["AI", "Trends", "Future"],
+    "excerpt": "Discover the emerging trends in AI and how they will shape our future."
+  },
+  {
+    "id": 2,
+    "title": "Building a Community Around AI",
+    "slug": "building-ai-community",
+    "content": "Creating a supportive community is essential for fostering innovation in AI. This post discusses strategies for building and maintaining an engaged community.",
+    "author": "John Smith",
+    "date": "2023-10-05",
+    "tags": ["Community", "AI", "Engagement"],
+    "excerpt": "Learn how to build a thriving community around artificial intelligence."
+  },
+  {
+    "id": 3,
+    "title": "Top 10 AI Tools for Developers",
+    "slug": "top-ai-tools",
+    "content": "A comprehensive list of the best AI tools available for developers, including their features and use cases.",
+    "author": "Alice Johnson",
+    "date": "2023-10-10",
+    "tags": ["Tools", "AI", "Development"],
+    "excerpt": "Explore the top AI tools that can enhance your development workflow."
+  },
+  {
+    "id": 4,
+    "title": "Ethics in AI: A Discussion",
+    "slug": "ethics-in-ai",
+    "content": "This post delves into the ethical considerations surrounding AI technology and its impact on society.",
+    "author": "Michael Brown",
+    "date": "2023-10-15",
+    "tags": ["Ethics", "AI", "Society"],
+    "excerpt": "Join the conversation on the ethical implications of artificial intelligence."
+  },
+  {
+    "id": 5,
+    "title": "AI and the Future of Work",
+    "slug": "ai-future-of-work",
+    "content": "An analysis of how AI is transforming the workplace and what it means for the future of employment.",
+    "author": "Emily Davis",
+    "date": "2023-10-20",
+    "tags": ["Work", "AI", "Future"],
+    "excerpt": "Understand how AI is reshaping the future of work and employment."
+  }
+]
