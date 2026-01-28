@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
 2:I[97367,["/ai-disrupt-website/_next/static/chunks/ff1a16fafef87110.js","/ai-disrupt-website/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"buildId":"XfmR3SRhpCO08iv0BHkSD","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-screen bg-gray-100","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"Dashboard"}],["$","p",null,{"className":"text-lg text-gray-700","children":"Welcome to your dashboard! Here you can manage your profile, view community updates, and access resources."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"GNZZRancDm2kXbaUB4XIy","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-screen bg-gray-100","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"Dashboard"}],["$","p",null,{"className":"text-lg text-gray-700","children":"Welcome to your dashboard! Here you can manage your profile, view community updates, and access resources."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
 4:null
