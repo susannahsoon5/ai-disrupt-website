@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
 2:I[97367,["/ai-disrupt-website/_next/static/chunks/ff1a16fafef87110.js","/ai-disrupt-website/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"buildId":"f1c39i7MB1RjQfvazeVmD","rsc":["$","$1","c",{"children":[["$","div",null,{"children":"Post not found"}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"Bb2NOcMS7TCuN709wqGeg","rsc":["$","$1","c",{"children":[["$","div",null,{"children":"Post not found"}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
 4:null

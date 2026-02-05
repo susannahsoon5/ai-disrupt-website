@@ -1,4 +1,14 @@
 :HL["/ai-disrupt-website/_next/static/chunks/d54af1104698d55b.css","style"]
-:HL["/ai-disrupt-website/_next/static/chunks/3feeb49848aa6463.css","style"]
+:HL["/ai-disrupt-website/_next/static/chunks/d8d43197c385aed5.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap","style"]
-0:{"buildId":"f1c39i7MB1RjQfvazeVmD","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"summit","paramType":null,"paramKey":"summit","hasRuntimePrefetch":false,"slots":{"children":{"name":"2025","paramType":null,"paramKey":"2025","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/ai-disrupt-website/images/summit2025/logo-curtin.svg","image"]
+:HL["/ai-disrupt-website/images/summit2025/adobe-express-logo.png","image"]
+:HL["/ai-disrupt-website/images/summit2025/buildclub.png","image"]
+:HL["/ai-disrupt-website/images/summit2025/bloom-logo.png","image"]
+:HL["/ai-disrupt-website/images/summit2025/curtin.jpeg","image"]
+:HL["/ai-disrupt-website/images/summit2025/blackbird-logo.svg","image"]
+:HL["/ai-disrupt-website/images/summit2025/dddperth-logo.svg","image"]
+:HL["/ai-disrupt-website/images/summit2025/WADSIH-logo.png","image"]
+:HL["/ai-disrupt-website/images/summit2025/lovable-logo.svg","image"]
+:HL["/ai-disrupt-website/images/summit2025/matilda-logo-green.png","image"]
+0:{"buildId":"Bb2NOcMS7TCuN709wqGeg","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"summit","paramType":null,"paramKey":"summit","hasRuntimePrefetch":false,"slots":{"children":{"name":"2025","paramType":null,"paramKey":"2025","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
