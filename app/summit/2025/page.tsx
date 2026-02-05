@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { CountdownTimer, FloatingCTA } from './ClientComponents';
 import { SessionizeEmbed } from './SessionizeEmbed';
 import styles from './summit2025.module.css';
@@ -11,17 +10,16 @@ export default function Summit2025() {
             {/* Hero Section */}
             <header className={styles.hero}>
                 <div style={{ position: 'absolute', top: '50px', left: '100px', zIndex: 10 }}>
-                    <Image src="/images/summit2025/logo-curtin.svg" alt="Curtin Logo" width={200} height={100} style={{ height: 'auto' }} />
+                    <img src="/ai-disrupt-website/images/summit2025/logo-curtin.svg" alt="Curtin Logo" width={200} height="auto" style={{ height: 'auto' }} />
                 </div>
 
                 <div className={styles.heroContent}>
-                    <Image 
-                        src="/images/summit2025/adobe-express-logo.png" 
+                    <img 
+                        src="/ai-disrupt-website/images/summit2025/adobe-express-logo.png" 
                         alt="AI Disrupt Summit 2025" 
                         width={450} 
                         height={300}
                         className={styles.logo}
-                        priority
                     />
                     <h1 className={styles.heroTitle}>AI DISRUPT SUMMIT<br />PERTH 2025</h1>
                     <p className={styles.subtitle}>Perth&apos;s Premier AI Builder Conference</p>
@@ -165,7 +163,7 @@ export default function Summit2025() {
                     <p style={{ textAlign: 'center', fontSize: '1.1rem', marginBottom: '30px' }}>Thank you to our amazing sponsors making this event possible</p>
                     <div className={styles.sponsorsGrid}>
                         <a className={styles.sponsorItem} href="https://www.buildclub.ai/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/buildclub.png" alt="Build Club" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/ai-disrupt-website/images/summit2025/buildclub.png" alt="Build Club" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Build Club</div>
                                 <span className={styles.sponsorCategory}>Sponsor</span>
@@ -173,7 +171,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.bloom.org.au/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/bloom-logo.png" alt="Bloom" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/ai-disrupt-website/images/summit2025/bloom-logo.png" alt="Bloom" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Bloom</div>
                                 <span className={styles.sponsorCategory}>Afternoon Tea and Venue Sponsor</span>
@@ -181,7 +179,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.curtin.edu.au/engage/entrepreneurs/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/curtin.jpeg" alt="Curtin Entrepreneurs" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/ai-disrupt-website/images/summit2025/curtin.jpeg" alt="Curtin Entrepreneurs" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Curtin Entrepreneurs</div>
                                 <span className={styles.sponsorCategory}>Lunch Sponsor</span>
@@ -189,7 +187,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.blackbird.vc/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/blackbird-logo.svg" alt="Blackbird" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
+                            <img src="/ai-disrupt-website/images/summit2025/blackbird-logo.svg" alt="Blackbird" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
                             <div>
                                 <div className={styles.sponsorName}>Blackbird</div>
                                 <span className={styles.sponsorCategory}>Sundowner Sponsor</span>
@@ -197,7 +195,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://dddperth.com/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/dddperth-logo.svg" alt="DDD Perth" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
+                            <img src="/ai-disrupt-website/images/summit2025/dddperth-logo.svg" alt="DDD Perth" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
                             <div>
                                 <div className={styles.sponsorName}>DDD Perth</div>
                                 <span className={styles.sponsorCategory}>Community Partner</span>
@@ -205,7 +203,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://wadsih.org.au/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/WADSIH-logo.png" alt="WADSIH" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/ai-disrupt-website/images/summit2025/WADSIH-logo.png" alt="WADSIH" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>WADSIH</div>
                                 <span className={styles.sponsorCategory}>Sponsor</span>
@@ -221,7 +219,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://lovable.dev/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/lovable-logo.svg" alt="Lovable" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
+                            <img src="/ai-disrupt-website/images/summit2025/lovable-logo.svg" alt="Lovable" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
                             <div>
                                 <div className={styles.sponsorName}>Lovable</div>
                                 <span className={styles.sponsorCategory}>Sponsor</span>
@@ -229,7 +227,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.matilda.health/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/matilda-logo-green.png" alt="Matilda Health" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/ai-disrupt-website/images/summit2025/matilda-logo-green.png" alt="Matilda Health" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Matilda Health</div>
                                 <span className={styles.sponsorCategory}>Cinny Scroll Sponsor</span>
