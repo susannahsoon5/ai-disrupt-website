@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Summit 2025 CSS Variables */
+:root {
+  --primary-color: #fa8f32;
+  --secondary-color: #ef6e4a;
+  --dark-blue: #0f4a7f;
+  --darker-blue: #0c2d4c;
+  --light-bg: #f8fafc;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --accent: #fa6146;
+  --sunset-orange: #fab337;
+  --sunset-red: #de5a4a;
+}
+
 /* Custom global styles */
 body {
   @apply bg-gray-50 text-gray-900;

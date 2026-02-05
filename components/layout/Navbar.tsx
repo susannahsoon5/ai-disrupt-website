@@ -72,6 +72,9 @@ const Navbar = () => {
                                 <Link href="/summit/2025" onClick={() => setIsSummitOpen(false)} className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-600">
                                     Summit 2025
                                 </Link>
+                                <Link href="/summit/2025-recap" onClick={() => setIsSummitOpen(false)} className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-600">
+                                    Summit 2025 Recap
+                                </Link>
                                 <Link href="/summit/2026" onClick={() => setIsSummitOpen(false)} className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-gray-600">
                                     Summit 2026
                                 </Link>
