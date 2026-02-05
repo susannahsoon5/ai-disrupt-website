@@ -1,27 +1,13 @@
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import { getPostBySlug } from '../../../lib/api';
+import { getPostBySlug, Post } from '../../../lib/api';
 
-const BlogPost = () => {
-  const router = useRouter();
-  const { slug } = router.query;
-  const [post, setPost] = useState(null);
-  const [loading, setLoading] = useState(true);
+export function generateStaticParams() {
+  return [
+    { slug: 'example-post' },
+  ];
+}
 
-  useEffect(() => {
-    if (slug) {
-      const fetchPost = async () => {
-        const fetchedPost = await getPostBySlug(slug);
-        setPost(fetchedPost);
-        setLoading(false);
-      };
-      fetchPost();
-    }
-  }, [slug]);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+export default async function BlogPost({ params }: { params: { slug: string } }) {
+  const post = await getPostBySlug(params.slug);
 
   if (!post) {
     return <div>Post not found</div>;
@@ -35,6 +21,4 @@ const BlogPost = () => {
       </div>
     </article>
   );
-};
-
-export default BlogPost;
+}

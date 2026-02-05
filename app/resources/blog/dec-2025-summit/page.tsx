@@ -1,3 +1,5 @@
+const basePath = process.env.NODE_ENV === 'production' ? '/ai-disrupt-website' : '';
+
 export default function Dec2025Summit() {
     return (
         <div className="container mx-auto p-8 max-w-4xl">
@@ -5,7 +7,7 @@ export default function Dec2025Summit() {
             <p className="text-gray-600 mb-8">December 2025</p>
             
             <img 
-                src="/images/dec-2025-summit.jpg" 
+                src={`${basePath}/images/dec-2025-summit.jpg`} 
                 alt="AI Disrupt Summit 2025 at St Catherine's College" 
                 className="w-full rounded-lg mb-8 shadow-lg"
             />

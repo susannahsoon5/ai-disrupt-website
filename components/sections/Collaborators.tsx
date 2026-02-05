@@ -3,15 +3,17 @@
 import React from 'react';
 import Image from 'next/image';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/ai-disrupt-website' : '';
+
 const Collaborators: React.FC = () => {
     const collaborators = [
-        { name: 'Build Club', logo: '/images/Build Club.png', url: 'https://buildclub.com.au' },
-        { name: 'Bloom', logo: '/images/Bloom.png.png', url: 'https://bloom.org.au' },
-        { name: 'WA Data Science Innovation Hub', logo: '/images/WADSIH logo.png.png', url: 'https://wadsih.org.au' },
-        { name: 'Curtin Entrepreneurs', logo: '/images/Curtin Entreprenuers.png.png', url: 'https://entrepreneurs.curtin.edu.au' },
-        { name: 'DDD Perth', logo: '/images/DDD Perth.png.png', url: 'https://dddperth.com' },
-        { name: 'Roo MLAI', logo: '/images/Roo_MLAI.png', url: 'https://mlai.au' },
-        { name: 'West Tech Fest', logo: '/images/West Tech Fest.svg', url: 'https://westtechfest.com.au' },
+        { name: 'Build Club', logo: `${basePath}/images/build-club.png`, url: 'https://buildclub.com.au' },
+        { name: 'Bloom', logo: `${basePath}/images/bloom.png`, url: 'https://bloom.org.au' },
+        { name: 'WA Data Science Innovation Hub', logo: `${basePath}/images/wadsih-logo.png`, url: 'https://wadsih.org.au' },
+        { name: 'Curtin Entrepreneurs', logo: `${basePath}/images/curtin-entrepreneurs.png`, url: 'https://entrepreneurs.curtin.edu.au' },
+        { name: 'DDD Perth', logo: `${basePath}/images/ddd-perth.png`, url: 'https://dddperth.com' },
+        { name: 'Roo MLAI', logo: `${basePath}/images/roo-mlai.png`, url: 'https://mlai.au' },
+        { name: 'West Tech Fest', logo: `${basePath}/images/west-tech-fest.svg`, url: 'https://westtechfest.com.au' },
     ];
 
     return (

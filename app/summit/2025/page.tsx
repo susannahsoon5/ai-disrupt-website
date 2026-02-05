@@ -16,7 +16,7 @@ export default function Summit2025() {
 
                 <div className={styles.heroContent}>
                     <Image 
-                        src="/images/summit2025/Adobe Express - file.png" 
+                        src="/images/summit2025/adobe-express-logo.png" 
                         alt="AI Disrupt Summit 2025" 
                         width={450} 
                         height={300}
@@ -229,7 +229,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.matilda.health/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/images/summit2025/Matilda Logo Green.png" alt="Matilda Health" width={150} height={80} className={styles.sponsorLogo} />
+                            <Image src="/images/summit2025/matilda-logo-green.png" alt="Matilda Health" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Matilda Health</div>
                                 <span className={styles.sponsorCategory}>Cinny Scroll Sponsor</span>

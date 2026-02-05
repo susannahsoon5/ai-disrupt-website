@@ -3,6 +3,8 @@
 import React from 'react';
 import Image from 'next/image';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/ai-disrupt-website' : '';
+
 const Hero: React.FC = () => {
     return (
         <section className="relative flex items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500 text-white text-center overflow-hidden">
@@ -10,7 +12,7 @@ const Hero: React.FC = () => {
             {/* Background image with opacity */}
             <div className="absolute inset-0 opacity-30">
                 <Image
-                    src="/images/Perth Skyline.png"
+                    src={`${basePath}/images/perth-skyline.png`}
                     alt="Perth Skyline"
                     fill
                     className="object-cover"
@@ -20,7 +22,7 @@ const Hero: React.FC = () => {
 
             <div className="absolute left-20 top-1/4 transform -translate-y-1/2 rotate-12 w-72 h-72 z-10">          
                 <Image
-                    src="/images/quokka.jpg.png"
+                    src={`${basePath}/images/quokka.jpg.png`}
                     alt="Quokka"
                     width={288}
                     height={288}
