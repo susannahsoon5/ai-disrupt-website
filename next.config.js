@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/ai-disrupt-website',
+  basePath: '/genai-community',
   images: {
     unoptimized: true,
   },

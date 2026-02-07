@@ -1,4 +1,4 @@
-import { CountdownTimer, FloatingCTA } from './ClientComponents';
+import { CountdownTimer, FloatingCTA, SummitNavigation } from './ClientComponents';
 import { SessionizeEmbed } from './SessionizeEmbed';
 import styles from './summit2025.module.css';
 
@@ -10,12 +10,12 @@ export default function Summit2025() {
             {/* Hero Section */}
             <header className={styles.hero}>
                 <div style={{ position: 'absolute', top: '50px', left: '100px', zIndex: 10 }}>
-                    <img src="/ai-disrupt-website/images/summit2025/logo-curtin.svg" alt="Curtin Logo" width={200} height="auto" style={{ height: 'auto' }} />
+                    <img src="/genai-community/images/summit2025/logo-curtin.svg" alt="Curtin Logo" width={200} height="auto" style={{ height: 'auto' }} />
                 </div>
 
                 <div className={styles.heroContent}>
                     <img 
-                        src="/ai-disrupt-website/images/summit2025/adobe-express-logo.png" 
+                        src="/genai-community/images/summit2025/adobe-express-logo.png" 
                         alt="AI Disrupt Summit 2025" 
                         width={450} 
                         height={300}
@@ -47,21 +47,13 @@ export default function Summit2025() {
             </header>
 
             {/* Navigation */}
-            <nav style={{ textAlign: 'center', padding: '15px 10px', background: 'white', borderBottom: '1px solid #ddd', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', overflowX: 'auto', whiteSpace: 'nowrap', position: 'sticky', top: 0, zIndex: 1000 }}>
-                <a href="#home" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Home</a>
-                <a href="#speakers" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Speaker Series</a>
-                <a href="#expo" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Startup Expo</a>
-                <a href="#hackathon" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Hackathon</a>
-                <a href="#workshop" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Workshop</a>
-                <a href="#demos" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Demos</a>
-                <a href="#sundowner" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Sundowner</a>
-            </nav>
+            <SummitNavigation />
 
             {/* Countdown */}
             <CountdownTimer />
 
             {/* About Section */}
-            <div className={styles.container} id="home">
+            <div className={styles.container} id="home" style={{ scrollMarginTop: '80px' }}>
                 <section>
                     <h2>About the Summit</h2>
                     <p style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: '900px', margin: '0 auto 40px', lineHeight: 1.8 }}>
@@ -77,27 +69,27 @@ export default function Summit2025() {
                         founders, and investors who are actively building the next generation of AI solutions.
                     </p>
                     <div className={styles.featuresGrid}>
-                        <div className={styles.featureCard} id="speakers">
+                        <div className={styles.featureCard}>
                             <div className={styles.featureIcon}>🎤</div>
-                            <h3>Speaker Series</h3>
+                            <h3 id="speakers" style={{ scrollMarginTop: '80px' }}>Speaker Series</h3>
                             <p>Australia&apos;s leading AI thinkers and practitioners</p>
                         </div>
 
-                        <div className={styles.featureCard} id="expo">
+                        <div className={styles.featureCard}>
                             <div className={styles.featureIcon}>🚀</div>
-                            <h3>Start-up Expo</h3>
+                            <h3 id="expo" style={{ scrollMarginTop: '80px' }}>Start-up Expo</h3>
                             <p>Innovative local ventures showcasing AI technology</p>
                         </div>
 
-                        <div className={styles.featureCard} id="hackathon">
+                        <div className={styles.featureCard}>
                             <div className={styles.featureIcon}>💻</div>
-                            <h3>Hackathon</h3>
+                            <h3 id="hackathon" style={{ scrollMarginTop: '80px' }}>Hackathon</h3>
                             <p>Compete in our Hackathon sponsored by Lovable</p>
                         </div>
 
-                        <div className={styles.featureCard} id="workshop">
+                        <div className={styles.featureCard}>
                             <div className={styles.featureIcon}>🛠️</div>
-                            <h3>Technical Workshop</h3>
+                            <h3 id="workshop" style={{ scrollMarginTop: '80px' }}>Technical Workshop</h3>
                             <p>Build your first AI home lab with Ollama, n8n, and VeilNet</p>
                         </div>
 
@@ -107,9 +99,9 @@ export default function Summit2025() {
                             <p>Connect with mentors and industry leaders</p>
                         </div>
 
-                        <div className={styles.featureCard} id="sundowner">
+                        <div className={styles.featureCard}>
                             <div className={styles.featureIcon}>🍺</div>
-                            <h3>Sundowner</h3>
+                            <h3 id="sundowner" style={{ scrollMarginTop: '80px' }}>Sundowner</h3>
                             <p>Networking drinks sponsored by Blackbird</p>
                         </div>
                     </div>
@@ -131,7 +123,7 @@ export default function Summit2025() {
             {/* Highlight Boxes */}
             <div className={styles.highlightBox}>
                 <div className={styles.container} style={{ padding: 0 }}>
-                    <h2 style={{ marginBottom: '20px' }}>💻 Bring your devices</h2>
+                    <h2 style={{ marginBottom: '20px', textAlign: 'center' }}>💻 Bring your devices</h2>
                     <p style={{ textAlign: 'center', fontSize: '1.3rem', maxWidth: '800px', margin: '0 auto', lineHeight: 1.8 }}>
                         Attendees should bring their laptops to the summit<br />
                         Especially for Hackathon or Workshop sessions
@@ -142,7 +134,7 @@ export default function Summit2025() {
 
             <div className={styles.highlightBox}>
                 <div className={styles.container} style={{ padding: 0 }}>
-                    <h2 style={{ marginBottom: '20px' }}>🏆 Hackathon Prize</h2>
+                    <h2 style={{ marginBottom: '20px', textAlign: 'center' }}>🏆 Hackathon Prize</h2>
                     <p style={{ textAlign: 'center', fontSize: '1.3rem', maxWidth: '800px', margin: '0 auto', lineHeight: 1.8 }}>
                         Compete in our hands-on hackathon and build real-world AI projects throughout the day.
                         The winning team will receive <strong>exciting prizes</strong> and recognition from industry leaders!
@@ -152,7 +144,7 @@ export default function Summit2025() {
 
             <div className={styles.highlightBox}>
                 <div className={styles.container} style={{ padding: 0 }}>
-                    <h2 style={{ marginBottom: '20px' }}>💧 Bring Your Water Bottle</h2>
+                    <h2 style={{ marginBottom: '20px', textAlign: 'center' }}>💧 Bring Your Water Bottle</h2>
                 </div>
             </div>
 
@@ -163,7 +155,7 @@ export default function Summit2025() {
                     <p style={{ textAlign: 'center', fontSize: '1.1rem', marginBottom: '30px' }}>Thank you to our amazing sponsors making this event possible</p>
                     <div className={styles.sponsorsGrid}>
                         <a className={styles.sponsorItem} href="https://www.buildclub.ai/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/buildclub.png" alt="Build Club" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/genai-community/images/summit2025/buildclub.png" alt="Build Club" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Build Club</div>
                                 <span className={styles.sponsorCategory}>Sponsor</span>
@@ -171,7 +163,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.bloom.org.au/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/bloom-logo.png" alt="Bloom" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/genai-community/images/summit2025/bloom-logo.png" alt="Bloom" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Bloom</div>
                                 <span className={styles.sponsorCategory}>Afternoon Tea and Venue Sponsor</span>
@@ -179,7 +171,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.curtin.edu.au/engage/entrepreneurs/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/curtin.jpeg" alt="Curtin Entrepreneurs" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/genai-community/images/summit2025/curtin.jpeg" alt="Curtin Entrepreneurs" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Curtin Entrepreneurs</div>
                                 <span className={styles.sponsorCategory}>Lunch Sponsor</span>
@@ -187,7 +179,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.blackbird.vc/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/blackbird-logo.svg" alt="Blackbird" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
+                            <img src="/genai-community/images/summit2025/blackbird-logo.svg" alt="Blackbird" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
                             <div>
                                 <div className={styles.sponsorName}>Blackbird</div>
                                 <span className={styles.sponsorCategory}>Sundowner Sponsor</span>
@@ -195,7 +187,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://dddperth.com/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/dddperth-logo.svg" alt="DDD Perth" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
+                            <img src="/genai-community/images/summit2025/dddperth-logo.svg" alt="DDD Perth" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
                             <div>
                                 <div className={styles.sponsorName}>DDD Perth</div>
                                 <span className={styles.sponsorCategory}>Community Partner</span>
@@ -203,7 +195,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://wadsih.org.au/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/WADSIH-logo.png" alt="WADSIH" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/genai-community/images/summit2025/WADSIH-logo.png" alt="WADSIH" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>WADSIH</div>
                                 <span className={styles.sponsorCategory}>Sponsor</span>
@@ -219,7 +211,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://lovable.dev/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/lovable-logo.svg" alt="Lovable" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
+                            <img src="/genai-community/images/summit2025/lovable-logo.svg" alt="Lovable" width={150} height={80} className={styles.sponsorLogo} style={{ paddingTop: '20px' }} />
                             <div>
                                 <div className={styles.sponsorName}>Lovable</div>
                                 <span className={styles.sponsorCategory}>Sponsor</span>
@@ -227,7 +219,7 @@ export default function Summit2025() {
                         </a>
 
                         <a className={styles.sponsorItem} href="https://www.matilda.health/" target="_blank" rel="noopener noreferrer">
-                            <img src="/ai-disrupt-website/images/summit2025/matilda-logo-green.png" alt="Matilda Health" width={150} height={80} className={styles.sponsorLogo} />
+                            <img src="/genai-community/images/summit2025/matilda-logo-green.png" alt="Matilda Health" width={150} height={80} className={styles.sponsorLogo} />
                             <div>
                                 <div className={styles.sponsorName}>Matilda Health</div>
                                 <span className={styles.sponsorCategory}>Cinny Scroll Sponsor</span>

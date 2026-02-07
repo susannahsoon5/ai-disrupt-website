@@ -5,7 +5,7 @@ export default function Blog() {
         <div className="container mx-auto p-8">
             <h1 className="text-4xl font-bold mb-6">Blog</h1>
             <p className="text-lg mb-6">
-                Read the latest insights, tutorials, and stories from the AI Disrupt Community.
+                Read the latest insights, tutorials, and stories from the GenAI Community.
             </p>
             
             <div className="space-y-6">

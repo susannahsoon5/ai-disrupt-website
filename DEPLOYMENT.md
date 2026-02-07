@@ -18,7 +18,7 @@
    - Select `gh-pages` branch and `/ (root)` folder
    - Click Save
 
-4. Your site will be available at: https://susannahsoon5.github.io/ai-disrupt-website/
+4. Your site will be available at: https://susannahsoon5.github.io/genai-community/
 
 ## Notes
 - The first deployment may take a few minutes to appear

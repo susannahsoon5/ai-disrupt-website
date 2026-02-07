@@ -24,77 +24,77 @@ export default function PastEvents() {
 
                 <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
                     <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/dec-2025-coworking" className="text-blue-600 hover:text-blue-800">Co-working Session - December 2025</Link>
-                    </h3>
-                    <p className="text-gray-600 mb-2">December 2025 • Guest Speakers</p>
-                    <p className="text-lg mb-4">
-                        A productive co-working session with inspiring guest speakers from the AI community.
-                    </p>
-                    <Link href="/events/past/dec-2025-coworking" className="text-blue-600 hover:underline">Read more →</Link>
-                </div>
-
-                <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
-                    <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/nov-2025-meetup" className="text-blue-600 hover:text-blue-800">Community Meetup - November 2025</Link>
+                        <Link href="/events/past/nov-2025-meetup" className="text-blue-600 hover:text-blue-800">Meetup - November 2025</Link>
                     </h3>
                     <p className="text-gray-600 mb-2">November 2025</p>
                     <p className="text-lg mb-4">
-                        Monthly community gathering for networking and knowledge sharing.
+                        Celebrating six months of impact, reflecting on achievements, and setting goals for 2026.
                     </p>
                     <Link href="/events/past/nov-2025-meetup" className="text-blue-600 hover:underline">Read more →</Link>
                 </div>
 
                 <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
                     <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/oct-2025-drinks" className="text-blue-600 hover:text-blue-800">Ecosystem Drinks - October 2025</Link>
+                        <Link href="/events/past/oct-2025-drinks" className="text-blue-600 hover:text-blue-800">Meetup - October 2025</Link>
                     </h3>
-                    <p className="text-gray-600 mb-2">October 2025</p>
+                    <p className="text-gray-600 mb-2">October 2025 • Curtin Entrepreneurs Hub</p>
                     <p className="text-lg mb-4">
-                        Casual networking drinks connecting the Perth AI and startup ecosystem.
+                        Featured talk from David Smith on Easter Bunny.ai project covering agent workflows, LLM evaluation, and AI risk assessment.
                     </p>
                     <Link href="/events/past/oct-2025-drinks" className="text-blue-600 hover:underline">Read more →</Link>
                 </div>
 
                 <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
                     <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/sep-2025-ddd" className="text-blue-600 hover:text-blue-800">DDD Perth Booth - September 2025</Link>
+                        <Link href="/events/past/sep-2025-meetup" className="text-blue-600 hover:text-blue-800">Meetup - September 2025</Link>
                     </h3>
-                    <p className="text-gray-600 mb-2">September 2025 • DDD Perth</p>
+                    <p className="text-gray-600 mb-2">September 2025</p>
                     <p className="text-lg mb-4">
-                        AI Disrupt Community presence at DDD Perth conference.
+                        AI builders vibe coding, demos, and celebration of community achievements including hackathon wins and start-up hires.
+                    </p>
+                    <Link href="/events/past/sep-2025-meetup" className="text-blue-600 hover:underline">Read more →</Link>
+                </div>
+
+                <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
+                    <h3 className="text-2xl font-semibold mb-2">
+                        <Link href="/events/past/sep-2025-ddd" className="text-blue-600 hover:text-blue-800">DDD Perth Booth 2025</Link>
+                    </h3>
+                    <p className="text-gray-600 mb-2">September 2025 • DDD Perth Conference</p>
+                    <p className="text-lg mb-4">
+                        Build Club Perth booth at DDD Perth with 1,100+ attendees, prompting game, and community engagement.
                     </p>
                     <Link href="/events/past/sep-2025-ddd" className="text-blue-600 hover:underline">Read more →</Link>
                 </div>
 
                 <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
                     <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/aug-2025-meetup" className="text-blue-600 hover:text-blue-800">Community Meetup - August 2025</Link>
+                        <Link href="/events/past/aug-2025-meetup" className="text-blue-600 hover:text-blue-800">Meetup - August 2025</Link>
                     </h3>
-                    <p className="text-gray-600 mb-2">August 2025</p>
+                    <p className="text-gray-600 mb-2">August 2025 • Bloom Crawley</p>
                     <p className="text-lg mb-4">
-                        Monthly community gathering for networking and knowledge sharing.
+                        Featured talks from Jeroen van Dalen on AI infrastructure and Mark McDonald on Google AI Studio with live demos.
                     </p>
                     <Link href="/events/past/aug-2025-meetup" className="text-blue-600 hover:underline">Read more →</Link>
                 </div>
 
                 <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
                     <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/jul-2025-meetup" className="text-blue-600 hover:text-blue-800">Community Meetup - July 2025</Link>
+                        <Link href="/events/past/jul-2025-meetup" className="text-blue-600 hover:text-blue-800">Meetup - July 2025</Link>
                     </h3>
-                    <p className="text-gray-600 mb-2">July 2025</p>
+                    <p className="text-gray-600 mb-2">July 2025 • Curtin University Library</p>
                     <p className="text-lg mb-4">
-                        Monthly community gathering for networking and knowledge sharing.
+                        ~70 attendees with stellar speaker line-up including Mark McDonald (Google), speakers from WeMoney, Matilda, Veilnet, and more!
                     </p>
                     <Link href="/events/past/jul-2025-meetup" className="text-blue-600 hover:underline">Read more →</Link>
                 </div>
 
                 <div className="border border-gray-300 rounded-lg p-6 hover:shadow-lg transition">
                     <h3 className="text-2xl font-semibold mb-2">
-                        <Link href="/events/past/jun-2025-meetup" className="text-blue-600 hover:text-blue-800">Community Meetup - June 2025</Link>
+                        <Link href="/events/past/jun-2025-meetup" className="text-blue-600 hover:text-blue-800">Perth Launch Event 🚀</Link>
                     </h3>
-                    <p className="text-gray-600 mb-2">June 2025</p>
+                    <p className="text-gray-600 mb-2">June 2025 • Curtin University Library</p>
                     <p className="text-lg mb-4">
-                        Monthly community gathering for networking and knowledge sharing.
+                        The official launch of Build Club Perth! Featured talks on AI Engineer role, live coding with Claude Code, and demos from sponsors.
                     </p>
                     <Link href="/events/past/jun-2025-meetup" className="text-blue-600 hover:underline">Read more →</Link>
                 </div>

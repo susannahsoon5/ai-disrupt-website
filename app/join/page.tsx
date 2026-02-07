@@ -1,7 +1,7 @@
 export default function Join() {
     return (
         <div className="container mx-auto p-8">
-            <h1 className="text-4xl font-bold mb-6">Join AI Disrupt Community</h1>
+            <h1 className="text-4xl font-bold mb-6">Join GenAI Community</h1>
             <p className="text-lg mb-8">
                 Become part of Perth's premier AI community. Connect with innovators, builders, and leaders shaping the future of artificial intelligence.
             </p>

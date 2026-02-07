@@ -3,7 +3,7 @@ import React from 'react';
 const AboutPage = () => {
     return (
         <div className="max-w-4xl mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold mb-6">AI Disrupt Community Perth 🚀</h1>
+            <h1 className="text-4xl font-bold mb-6">GenAI Community Perth 🚀</h1>
             <p className="text-lg mb-6">
                 We are a community of passionate builders—founders, developers, and investors—learning generative AI and building start-up dreams together!
             </p>

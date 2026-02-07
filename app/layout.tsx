@@ -1,7 +1,12 @@
 import React from 'react';
-import Navbar from '../components/layout/Navbar';
-import Footer from '../components/layout/Footer';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
 import './globals.css';
+
+export const metadata = {
+    title: 'GenAI Community',
+    description: 'Connect with like-minded individuals, share knowledge, and explore the future of AI together.',
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (

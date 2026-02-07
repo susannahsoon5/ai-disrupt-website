@@ -2,14 +2,21 @@
 
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
     const [isSummitOpen, setIsSummitOpen] = useState(false);
     const [isEventsOpen, setIsEventsOpen] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
     const summitRef = useRef<HTMLDivElement>(null);
     const eventsRef = useRef<HTMLDivElement>(null);
+    const router = useRouter();
 
     useEffect(() => {
+        // Check authentication status
+        const authStatus = localStorage.getItem('isAuthenticated');
+        setIsAuthenticated(authStatus === 'true');
+
         const handleClickOutside = (event: MouseEvent) => {
             if (summitRef.current && !summitRef.current.contains(event.target as Node)) {
                 setIsSummitOpen(false);
@@ -25,11 +32,18 @@ const Navbar = () => {
         };
     }, []);
 
+    const handleLogout = () => {
+        localStorage.removeItem('isAuthenticated');
+        localStorage.removeItem('userEmail');
+        setIsAuthenticated(false);
+        router.push('/');
+    };
+
     return (
         <nav className="bg-gray-800 p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">
-                    AI DISRUPT PERTH
+                    GenAI community
                 </div>
                 <div className="space-x-4">
                     <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
@@ -83,7 +97,11 @@ const Navbar = () => {
                     </div>
                     <Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link>
                     <Link href="/join" className="text-gray-300 hover:text-white">Join</Link>
-                    {/* <Link href="/login" className="text-gray-300 hover:text-white">Login</Link> */}
+                    {isAuthenticated ? (
+                        <button onClick={handleLogout} className="text-gray-300 hover:text-white">Logout</button>
+                    ) : (
+                        <Link href="/login" className="text-gray-300 hover:text-white">Login</Link>
+                    )}
                 </div>
             </div>
         </nav>

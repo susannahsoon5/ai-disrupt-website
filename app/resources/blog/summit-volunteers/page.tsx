@@ -1,4 +1,4 @@
-const basePath = process.env.NODE_ENV === 'production' ? '/ai-disrupt-website' : '';
+const basePath = '/genai-community';
 
 export default function SummitVolunteers() {
     return (

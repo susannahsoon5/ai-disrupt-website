@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/ai-disrupt-website' : '';
+const basePath = '/genai-community';
 
 const Collaborators: React.FC = () => {
     const collaborators = [
@@ -19,7 +19,7 @@ const Collaborators: React.FC = () => {
     return (
         <section className="py-12 bg-white">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-8 text-gray-800">Our Collaborators</h2>
+                <h2 className="text-3xl font-bold mb-8 text-gray-800">Our Supporters</h2>
                 <div className="flex flex-wrap justify-center items-center gap-8 px-4">
                     {collaborators.map((collaborator, index) => (
                         <a 

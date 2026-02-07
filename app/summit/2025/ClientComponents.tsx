@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import styles from './summit2025.module.css';
 
 export function CountdownTimer() {
@@ -115,5 +116,19 @@ export function FloatingCTA() {
         >
             Register Now 🚀
         </a>
+    );
+}
+
+export function SummitNavigation() {
+    return (
+        <nav style={{ textAlign: 'center', padding: '15px 10px', background: 'white', borderBottom: '1px solid #ddd', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', overflowX: 'auto', whiteSpace: 'nowrap', position: 'sticky', top: 0, zIndex: 1000 }}>
+            <Link href="/summit/2025" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Home</Link>
+            <Link href="/summit/2025/speakers" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Speaker Series</Link>
+            <Link href="/summit/2025/expo" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Startup Expo</Link>
+            <Link href="/summit/2025/hackathon" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Hackathon</Link>
+            <Link href="/summit/2025/workshop" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Workshop</Link>
+            <Link href="/summit/2025/demos" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Demos</Link>
+            <Link href="/summit/2025/sundowner" style={{ margin: '0 15px', fontSize: '1.1rem', textDecoration: 'none', color: 'var(--dark-blue)', fontWeight: 700 }}>Sundowner</Link>
+        </nav>
     );
 }

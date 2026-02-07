@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/ai-disrupt-website' : '';
+const basePath = '/genai-community';
 
 const Hero: React.FC = () => {
     return (
@@ -38,17 +38,11 @@ const Hero: React.FC = () => {
                 <h1 className="font-heading text-7xl font-bold mb-6 whitespace-nowrap" style={{
                     textShadow: '-2px -2px 0 #374151, 2px -2px 0 #374151, -2px 2px 0 #374151, 2px 2px 0 #374151, 0 -2px 0 #374151, 0 2px 0 #374151, -2px 0 0 #374151, 2px 0 0 #374151'
                 }}>
-                    AI DISRUPT COMMUNITY
+                    GenAI COMMUNITY
                 </h1>
                 <p className="font-body text-2xl mb-8">
                     Connect with like-minded individuals, share knowledge, and explore the future of AI together.
                 </p>
-                <a
-                    href="/join"
-                    className="inline-block bg-white text-blue-500 font-semibold py-4 px-8 rounded-lg shadow-lg hover:bg-gray-200 transition font-body text-xl"
-                >
-                    Get Started
-                </a>
             </div>
         </section>
     );
