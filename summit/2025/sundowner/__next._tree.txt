@@ -1,4 +1,4 @@
-:HL["/ai-disrupt-website/_next/static/chunks/67e0ad237068d6d2.css","style"]
+:HL["/ai-disrupt-website/_next/static/chunks/87f6ab7b38f09801.css","style"]
 :HL["/ai-disrupt-website/_next/static/chunks/c2410fbd8b649949.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap","style"]
 :HL["/ai-disrupt-website/images/summit2025/logo-curtin.svg","image"]
@@ -15,4 +15,4 @@
 :HL["/ai-disrupt-website/images/summit2025/nick.png","image"]
 :HL["/ai-disrupt-website/images/summit2025/rebecca.jpeg","image"]
 :HL["/ai-disrupt-website/images/summit2025/thuushal.jpeg","image"]
-0:{"buildId":"6iHfCXvGvJV2MIsl44sL4","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"summit","paramType":null,"paramKey":"summit","hasRuntimePrefetch":false,"slots":{"children":{"name":"2025","paramType":null,"paramKey":"2025","hasRuntimePrefetch":false,"slots":{"children":{"name":"sundowner","paramType":null,"paramKey":"sundowner","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"lkPCB9hyzB9vGhm8E_ObH","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"summit","paramType":null,"paramKey":"summit","hasRuntimePrefetch":false,"slots":{"children":{"name":"2025","paramType":null,"paramKey":"2025","hasRuntimePrefetch":false,"slots":{"children":{"name":"sundowner","paramType":null,"paramKey":"sundowner","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
